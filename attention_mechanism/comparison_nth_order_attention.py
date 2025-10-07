@@ -35,6 +35,42 @@ Sample Sentence (tokenized for demo): "The gradient energy coefficient μ for Pb
 For simplicity, we'll simulate with n random tokens.
 """)
 
+st.header("Theory of Ferroelectrics and AI")
+st.markdown(r"""
+### Theory of Ferroelectrics
+
+Ferroelectricity is a characteristic of certain materials that exhibit a spontaneous electric polarization that can be reversed by the application of an external electric field. This phenomenon is analogous to ferromagnetism but for electric fields instead of magnetic ones.
+
+The core theoretical framework for understanding ferroelectrics is the Landau-Ginzburg-Devonshire (LGD) theory, a phenomenological approach that describes the phase transition and properties of ferroelectric materials through a free energy expansion in terms of the polarization \( P \):
+
+\[
+G(P, T, E) = G_0 + \frac{1}{2} \alpha (T - T_c) P^2 + \frac{1}{4} \beta P^4 + \frac{1}{6} \gamma P^6 - E \cdot P
+\]
+
+Here:
+- \( G_0 \) is the free energy without polarization,
+- \( \alpha, \beta, \gamma \) are temperature-dependent coefficients (with \( \alpha > 0 \) above the Curie temperature \( T_c \) and \( \alpha < 0 \) below),
+- \( T \) is the temperature,
+- \( T_c \) is the Curie temperature where the phase transition occurs,
+- \( E \) is the applied electric field.
+
+For first-order transitions, higher-order terms like the \( P^6 \) term are included. This expansion allows for the prediction of hysteresis loops, dielectric constants, and other properties. Microscopically, ferroelectricity often arises from ionic displacements in non-centrosymmetric crystal structures, such as in perovskite materials like BaTiO₃ or PbTiO₃.
+
+### AI in Ferroelectricity Research
+
+Artificial Intelligence (AI) and machine learning (ML) are transforming ferroelectricity research in multiple ways:
+
+1. **Material Discovery and Property Prediction**: AI models like FerroAI are used to predict phase diagrams, stability, and ferroelectric properties of materials such as HfO₂-based systems. Machine learning accelerates high-throughput screening by analyzing vast datasets to identify promising candidates for new ferroelectrics.
+
+2. **Data Analysis and Mechanism Discovery**: Techniques like AI-driven image analysis or spectral data processing have revealed new switching mechanisms in ferroelectrics, as demonstrated in studies using deep learning to interpret experimental data.
+
+3. **Literature Mining and Knowledge Extraction**: Advanced NLP models, including higher-order attention mechanisms, enable quantitative Named Entity Recognition (NER) from scientific literature. This allows for automated extraction of material properties, values, and conditions, building structured knowledge graphs for ferroelectrics research.
+
+4. **Hardware Applications**: Conversely, ferroelectric materials are being integrated into AI hardware for energy-efficient computing. Ferroelectric field-effect transistors (FeFETs) and memories enable neuromorphic systems, synaptic devices, and ultra-low-power AI chips, potentially exceeding 50 TOPS/W efficiency.
+
+In this tutorial's context, higher-order attention exemplifies how AI enhances relational reasoning in extracting complex quantitative relationships from ferroelectricity texts, bridging theoretical models with empirical data.
+""")
+
 if compute_button:
     st.header("Computation Results")
     
