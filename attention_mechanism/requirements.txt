@@ -1,1 +1,6 @@
 streamlit
+matplotlib
+numpy
+seaborn
+pytorch
+itertools
