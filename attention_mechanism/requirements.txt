@@ -3,4 +3,5 @@ matplotlib
 numpy
 seaborn
 torch
+transformers
 
