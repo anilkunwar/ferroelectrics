@@ -2,5 +2,5 @@ streamlit
 matplotlib
 numpy
 seaborn
-pytorch
+torch
 
