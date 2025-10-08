@@ -4,4 +4,5 @@ numpy
 seaborn
 torch
 transformers
+plotly
 
