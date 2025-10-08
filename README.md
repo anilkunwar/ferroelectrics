@@ -6,3 +6,5 @@ Higher attention can help ferroelectricity design
 
 [![machinelearningferroelectricitytensormechanics](https://img.shields.io/badge/abstractanalyzer-streamlit-red)](https://ferroelectrics-abstractanalyzer.streamlit.app/)
 
+[![machinelearningferroelectricitytensormechanics](https://img.shields.io/badge/advabstractanalyzer-streamlit-red)](https://ferroelectrics-advancedabstractanalyzer.streamlit.app/)
+
